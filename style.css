@@ -15,7 +15,7 @@
 /*police d'écriture */
 @font-face{
     font-family: 'Archivo';
-    src: url(../Archivo_Black/ArchivoBlack-Regular.ttf) format('truetype');
+    src: url(Archivo_Black/ArchivoBlack-Regular.ttf) format('truetype');
 }
 /* Corps de la page */
 body{
