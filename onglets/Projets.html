@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Découvrez les projets réalisés par Lucas Rouzaire au cours de son BTS SIO, option SLAM.">
+        <link rel="stylesheet" href="style.css">
+        <title>Projets - Lucas ROUZAIRE</title>
+    </head>
+    <body>
+        <nav class="main-nav" aria-label="Navigation principale">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="etudes.html">Études</a></li>
+                <li><a href="Projets.html" aria-current="page">Projets</a></li>
+                <li><a href="experiences.html">Expériences</a></li>
+                <li><a href="veilletech.html">Veille technologique</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main class="projets-page">
+            <header class="projets-hero">
+                <p class="etudes-eyebrow">RÉALISATIONS · BTS SIO SLAM</p>
+                <h1>Mes <span>projets</span></h1>
+                <p class="etudes-hero-description">
+                    Découvrez quelques projets réalisés pendant ma formation.
+                    Sélectionnez une réalisation pour en savoir plus.
+                </p>
+                <a class="etudes-hero-link" href="#liste-projets">
+                    Explorer les projets <span aria-hidden="true">↓</span>
+                </a>
+            </header>
+
+            <section class="projets-portfolio-section" id="liste-projets" aria-labelledby="projets-title">
+                <div class="projets-section-heading">
+                    <p class="etudes-kicker">01 · MES RÉALISATIONS</p>
+                    <h2 id="projets-title">Projets réalisés</h2>    
+                </div>
+
+                <div class="projets-carousel" aria-label="Carrousel de projets">
+                    <button class="projets-carousel-arrow" type="button" data-carousel-prev aria-label="Projet précédent">
+                        <span aria-hidden="true">←</span>
+                    </button>
+
+                    <div class="projets-carousel-stage" aria-live="polite">
+                        <article class="projet-card" data-project-card aria-label="Projet 1 sur 5">
+                            <div class="projet-card-inner">
+                                <div class="projet-card-face projet-card-front">
+                                    <img src="../images/projet1.png" alt="Aperçu du projet Bibliothèque Éclectique">
+                                    <div class="projet-card-caption">
+                                        <p class="projet-category">Application · Bibliothèque</p>
+                                        <h3>Bibliothèque Éclectique</h3>
+                                        <button class="projet-detail-button" type="button" data-flip-button aria-expanded="false">
+                                            Détails <span aria-hidden="true">↗</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="projet-card-face projet-card-back" aria-hidden="true">
+                                    <p class="projet-detail-label">PROJET 01 · À PROPOS</p>
+                                    <h3>Bibliothèque Éclectique</h3>
+                                    <p>Lors de ce projet j'ai du réaliser en binôme un site web comprenant des livres différents. Chaque livre comprenait son isbn, description, son auteur, sa date de publication ou encore son édition. Il a été réalisé en HTML, CSS.</p>
+                                    <button class="projet-detail-button projet-back-button" type="button" data-flip-button aria-expanded="false">
+                                        Retour <span aria-hidden="true">↩</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projet-card" data-project-card aria-label="Projet 2 sur 5" hidden>
+                            <div class="projet-card-inner">
+                                <div class="projet-card-face projet-card-front">
+                                    <img src="../images/projet2.png" alt="Aperçu du projet Bibliothèque v2">
+                                    <div class="projet-card-caption">
+                                        <p class="projet-category">Application · Évolution</p>
+                                        <h3>Bibliothèque v2</h3>
+                                        <button class="projet-detail-button" type="button" data-flip-button aria-expanded="false">
+                                            Détails <span aria-hidden="true">↗</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="projet-card-face projet-card-back" aria-hidden="true">
+                                    <p class="projet-detail-label">PROJET 02 · À PROPOS</p>
+                                    <h3>Bibliothèque v2</h3>
+                                    <p>Cette deuxième version est une amélioration de la première version, avec l'ajout d'animation et de modernité sur le site mais aussi l'ajout d'une base de données. Nous avons également du respecter un cahier des charges. Pour cette deuxième version, nous avons utiliser HTML, CSS, JavaScript, PHP et MySQL.</p>
+                                    <button class="projet-detail-button projet-back-button" type="button" data-flip-button aria-expanded="false">
+                                        Retour <span aria-hidden="true">↩</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projet-card" data-project-card aria-label="Projet 3 sur 5" hidden>
+                            <div class="projet-card-inner">
+                                <div class="projet-card-face projet-card-front">
+                                    <img src="../images/projet3.png" alt="Aperçu du projet RespireStats">
+                                    <div class="projet-card-caption">
+                                        <p class="projet-category">Données · Statistiques</p>
+                                        <h3>RespireStats</h3>
+                                        <button class="projet-detail-button" type="button" data-flip-button aria-expanded="false">
+                                            Détails <span aria-hidden="true">↗</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="projet-card-face projet-card-back" aria-hidden="true">
+                                    <p class="projet-detail-label">PROJET 03 · À PROPOS</p>
+                                    <h3>RespireStats</h3>
+                                    <p>RespireStats est un projet consacré à la présentation de statistiques. Ces statistiques concernent le taux de pollution aux alentours d'écoles. Il a été réalisé en Java. </p>
+                                    <button class="projet-detail-button projet-back-button" type="button" data-flip-button aria-expanded="false">
+                                        Retour <span aria-hidden="true">↩</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projet-card" data-project-card aria-label="Projet 4 sur 5" hidden>
+                            <div class="projet-card-inner">
+                                <div class="projet-card-face projet-card-front">
+                                    <img src="../images/projet4.png" alt="Aperçu du projet de politique de sécurité des systèmes d’information">
+                                    <div class="projet-card-caption">
+                                        <p class="projet-category">Sécurité · Documentation</p>
+                                        <h3>Politique de Sécurité des Systèmes d’Information</h3>
+                                        <button class="projet-detail-button" type="button" data-flip-button aria-expanded="false">
+                                            Détails <span aria-hidden="true">↗</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="projet-card-face projet-card-back" aria-hidden="true">
+                                    <p class="projet-detail-label">PROJET 04 · À PROPOS</p>
+                                    <h3>Politique de Sécurité des Systèmes d’Information</h3>
+                                    <p>Un travail autour de la formalisation d’une politique de sécurité des systèmes d’information : définir des règles et des bonnes pratiques pour mieux protéger les informations et les services de l'organisation de La mairie.</p>
+                                    <button class="projet-detail-button projet-back-button" type="button" data-flip-button aria-expanded="false">
+                                        Retour <span aria-hidden="true">↩</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projet-card" data-project-card aria-label="Projet 5 sur 5" hidden>
+                            <div class="projet-card-inner">
+                                <div class="projet-card-face projet-card-front">
+                                    <div class="projet-placeholder-image" role="img" aria-label="Illustration de tickets de cinéma pour CineTrack">
+                                        <svg viewBox="0 0 640 360" aria-hidden="true">
+                                            <rect x="1" y="1" width="638" height="358" rx="18"/>
+                                            <path d="M75 95h490v170H75z"/>
+                                            <path d="M185 95v170m270-170v170"/>
+                                            <circle cx="185" cy="122" r="8"/><circle cx="185" cy="158" r="8"/><circle cx="185" cy="194" r="8"/><circle cx="185" cy="230" r="8"/>
+                                            <path d="M258 151h150m-150 38h112"/>
+                                            <path d="m306 220 24 18 42-50"/>
+                                        </svg>
+                                        <span>CineTrack</span>
+                                    </div>
+                                    <div class="projet-card-caption">
+                                        <p class="projet-category">Application web · Cinéma</p>
+                                        <h3>CineTrack</h3>
+                                        <button class="projet-detail-button" type="button" data-flip-button aria-expanded="false">
+                                            Détails <span aria-hidden="true">↗</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="projet-card-face projet-card-back" aria-hidden="true">
+                                    <p class="projet-detail-label">PROJET 05 · À PROPOS</p>
+                                    <h3>CineTrack</h3>
+                                    <p>
+                                        CineTrack est une application développée en C# avec le modèle MVC.
+                                        Elle permet de réserver des films.
+                                    </p>
+                                    <p class="projet-technologies">Technologies : C# · MVC</p>
+                                    <button class="projet-detail-button projet-back-button" type="button" data-flip-button aria-expanded="false">
+                                        Retour <span aria-hidden="true">↩</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <button class="projets-carousel-arrow" type="button" data-carousel-next aria-label="Projet suivant">
+                        <span aria-hidden="true">→</span>
+                    </button>
+                    <p class="projets-carousel-count" data-carousel-count aria-live="polite">01 / 05</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-top">
+                    <div class="footer-identity">
+                        <h3>Lucas ROUZAIRE</h3>
+                        <p>Étudiant en BTS SIO — SLAM</p>
+                    </div>
+                    <a
+                        href="https://www.linkedin.com/in/lucas-rouzaire-717898334/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="linkedin-link"
+                    >
+                        <img src="../images/linkedin-svgrepo-com.svg" alt="Logo LinkedIn">
+                        <span>Lucas Rouzaire</span>
+                        <span class="linkedin-arrow" aria-hidden="true">↗</span>
+                    </a>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2026 Lucas ROUZAIRE</p>
+                    <p>Portfolio réalisé avec HTML, CSS &amp; JavaScript</p>
+                </div>
+            </div>
+        </footer>
+        <script src="projets.js"></script>
+    </body>
+</html>
